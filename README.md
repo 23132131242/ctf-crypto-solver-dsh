@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/33415195/README.md)
 # dsh-ctf-crypto-solver
 
 > **授权 CTF Crypto 解题 skill** · [DeepSeek Harness](https://github.com/) 插件

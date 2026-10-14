@@ -1,0 +1,51 @@
+{
+  "name": "dsh-ctf-crypto-solver",
+  "version": "1.0.0",
+  "private": true,
+  "description": "合并版授权 CTF Crypto 解题 skill：铁律 / 七步工作流 / 攻击决策树 / 21 节手法库 / 十段输出模板 / 4 份专项 references / RSA 快速体检脚本；算力由 dsh-crypto-lab 的 crypto_* 工具提供。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "ctf",
+    "crypto",
+    "rsa",
+    "ecc",
+    "skill"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": ">=4.0.0-rc <5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<your-name>/dsh-ctf-crypto-solver.git"
+  },
+  "homepage": "https://github.com/<your-name>/dsh-ctf-crypto-solver#readme",
+  "bugs": {
+    "url": "https://github.com/<your-name>/dsh-ctf-crypto-solver/issues"
+  },
+  "author": "<your-name>"
+}

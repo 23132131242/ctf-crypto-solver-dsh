@@ -1,0 +1,13 @@
+# ============================================================================
+# dsh-ctf-crypto-solver — DSH bundle patch（插件「挂载声明」）
+# ============================================================================
+# 合并版 CTF Crypto 解题 skill 插件：把 ctf-crypto-solver 这一个 skill
+# 插入当前 profile 的配置树。算力工具由 dsh-crypto-lab 提供。
+#
+# 安装：
+#   dsh plugin --profile desktop add link:E:\dsh插件\dsh-ctf-crypto-solver
+# ============================================================================
+
+- insert:
+    - id: dsh-ctf-crypto-solver
+      name: dsh-ctf-crypto-solver
